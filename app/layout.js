@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center`}
+        className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center`}
       >
               <Spotlight />
         {children}

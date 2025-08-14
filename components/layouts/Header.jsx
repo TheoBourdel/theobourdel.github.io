@@ -27,7 +27,7 @@ export function Header() {
         <a href="#timeline" className="font-medium hover:text-gray-700 dark:hover:text-gray-300">Déroulement</a>
         <a href="#music" className="font-medium hover:text-gray-700 dark:hover:text-gray-300">Musique</a>
         <a href="#photobooth" className="font-medium hover:text-gray-700 dark:hover:text-gray-300">Photobooth</a>
-        <a href="#material" className="font-medium hover:text-gray-700 dark:hover:text-gray-300">Matériels</a>
+        <a href="#materials" className="font-medium hover:text-gray-700 dark:hover:text-gray-300">Matériels</a>
         <a href="#booking" className="font-medium hover:text-gray-700 dark:hover:text-gray-300">Réservation</a>
 
         {/* <a
@@ -59,7 +59,7 @@ export function Header() {
         <a onClick={() => setActiveMenu(false)} href="#timeline" className="hover:text-gray-700 dark:hover:text-gray-300">Déroulement</a>
         <a onClick={() => setActiveMenu(false)} href="#music" className="hover:text-gray-700 dark:hover:text-gray-300">Musique</a>
         <a onClick={() => setActiveMenu(false)} href="#photobooth" className="hover:text-gray-700 dark:hover:text-gray-300">Photobooth</a>
-        <a onClick={() => setActiveMenu(false)} href="#material" className="hover:text-gray-700 dark:hover:text-gray-300">Matériels</a>
+        <a onClick={() => setActiveMenu(false)} href="#materials" className="hover:text-gray-700 dark:hover:text-gray-300">Matériels</a>
         <a onClick={() => setActiveMenu(false)} href="#booking" className="hover:text-gray-700 dark:hover:text-gray-300">Réservation</a>
 
         <a

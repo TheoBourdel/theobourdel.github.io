@@ -16,7 +16,7 @@ function Footer() {
                         <li><a href="#timeline" className=" text-gray-800 hover:text-gray-900">Déroulement</a></li>
                         <li><a href="#music" className=" text-gray-800 hover:text-gray-900">Musique</a></li>
                         <li><a href="#photobooth" className=" text-gray-800 hover:text-gray-900">Photobooth</a></li>
-                        <li><a href="#material" className=" text-gray-800 hover:text-gray-900">Matériels</a></li>
+                        <li><a href="#materials" className=" text-gray-800 hover:text-gray-900">Matériels</a></li>
                         <li><a href="#booking" className=" text-gray-800 hover:text-gray-900">Réservation</a></li>
                         <li><a href="#testimonial" className=" text-gray-800 hover:text-gray-900">Testimonial</a></li>
 
