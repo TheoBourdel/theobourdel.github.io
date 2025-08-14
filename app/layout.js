@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased relative mx-auto flex max-w-7xl flex-col items-center justify-center`}
       >
-        <div className="pointer-events-none absolute top-0 left-0 w-[800px] h-[800px] bg-[radial-gradient(circle_at_top_left,_rgba(255,200,100,0.5),_transparent_70%)] blur-[120px] z-[-1]"></div>
-        <div className="pointer-events-none absolute top-0 right-0 w-[800px] h-[800px] bg-[radial-gradient(circle_at_top_right,_rgba(150,100,255,0.5),_transparent_70%)] blur-[120px] z-[-1]"></div>
+        <div className="pointer-events-none absolute top-0 left-0 w-full h-[800px] bg-[radial-gradient(circle_at_top_left,_rgba(255,200,100,0.5),_transparent_70%)] blur-[120px] z-[-1]"></div>
+        <div className="pointer-events-none absolute top-0 right-0 w-full h-[800px] bg-[radial-gradient(circle_at_top_right,_rgba(150,100,255,0.5),_transparent_70%)] blur-[120px] z-[-1]"></div>
 
         {children}
       </body>
