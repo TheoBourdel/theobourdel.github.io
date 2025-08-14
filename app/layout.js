@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Spotlight } from "@/components/ui/spotlight-new";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +29,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center`}
       >
-              <Spotlight />
         {children}
       </body>
     </html>
