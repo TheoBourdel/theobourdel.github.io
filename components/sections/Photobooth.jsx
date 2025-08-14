@@ -10,7 +10,7 @@ function Photobooth() {
         className="rounded-lg object-contain h-full w-full order-2 lg:order-1" 
         alt="photo-image" 
     />
-    <div className="text-right flex flex-col justify-center items-end order-1 lg:order-2">
+    <div className="text-right flex flex-col justify-center sm:items-end items-center order-1 lg:order-2">
         <h2 className="text-3xl font-bold text-gray-900 py-5">
             Prestation Photobooth et Spinner 360
         </h2>
@@ -19,7 +19,7 @@ function Photobooth() {
             Les impressions 10x15 à sublimation sont illimitées (offre disponible uniquement avec la prestation DJ).
             Chaque photo peut être envoyée par e-mail et personnalisée grâce à un habillage graphique unique, pour un rendu sur mesure.
         </p>
-        <p className="mb-4 text-[15px] text-neutral-600 dark:text-neutral-400 leading-relaxed">
+        <p className="mb-4 text-[15px] sm:text-left text-center text-neutral-600 dark:text-neutral-400 leading-relaxed">
             Nous mettons également à disposition des déguisements et accessoires (chapeaux, lunettes, boas, etc.) pour ajouter une touche ludique à vos clichés.
             En fin de prestation, vous recevrez toutes les photos via un lien sécurisé envoyé par e-mail.
             La location s’effectue du samedi au dimanche, et nos tarifs sont proposés sur devis.

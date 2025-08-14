@@ -149,7 +149,7 @@ export function Carousel({ slides }) {
 
   return (
     <>
-      <h2 className="text-3xl font-bold text-gray-900 py-5 text-left">Matériels</h2>
+      <h2 className="text-3xl font-bold text-gray-900 py-5 text-center">Matériels</h2>
 
       <div
         className="relative w-[70vmin] h-[70vmin] mx-auto"
