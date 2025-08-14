@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Spotlight } from "@/components/ui/spotlight";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="md:overflow-x-visible overflow-x-hidden">
+    <html lang="en">
       <head>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -30,7 +29,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased relative mx-auto flex max-w-7xl flex-col items-center justify-center`}
       >
-              <Spotlight />
+        <div className="pointer-events-none absolute top-0 left-0 w-[800px] h-[800px] bg-[radial-gradient(circle_at_top_left,_rgba(255,200,100,0.5),_transparent_70%)] blur-[120px] z-[-1]"></div>
+        <div className="pointer-events-none absolute top-0 right-0 w-[800px] h-[800px] bg-[radial-gradient(circle_at_top_right,_rgba(150,100,255,0.5),_transparent_70%)] blur-[120px] z-[-1]"></div>
+
         {children}
       </body>
     </html>

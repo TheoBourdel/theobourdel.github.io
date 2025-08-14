@@ -15,7 +15,7 @@ export function Header() {
   }, [activeMenu]);
 
   return (
-    <nav className="relative flex w-full items-center justify-between px-4 py-10 bg-white dark:bg-gray-900">
+    <nav className="relative flex w-full items-center justify-between px-4 py-10 bg-transparent dark:bg-gray-900 z-50">
       {/* Logo */}
       <div className="flex items-center gap-2">
         <Image src="/logo.png" height={24} width={24} alt="spotify-logo" />
